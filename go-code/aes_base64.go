@@ -9,8 +9,8 @@ import (
 )
 
 func main() {
-	keyStr := "123456789abcdefg"
-	str := "helloworld"
+	keyStr := "123456789july703"
+	str := "admin123456"
 
 	encodedStr := encode(str)
 	fmt.Println("base64Encode: ", encodedStr)
