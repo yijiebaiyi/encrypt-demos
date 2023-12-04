@@ -1,6 +1,6 @@
 const CryptoJS = require('crypto-js');
 
-const key = "123456789abcdefg";
+const key = "123456789july703";
 const iv = CryptoJS.enc.Utf8.parse(key)
 function encode(str) {
     str = CryptoJS.enc.Utf8.parse(str);
@@ -22,7 +22,7 @@ function encrypt(word) {
 
 
 
-const str = "helloworld";
+const str = "123456";
 const base64str = encode(str);
 const res = encrypt(base64str)
 console.log("base64: ", base64str)
